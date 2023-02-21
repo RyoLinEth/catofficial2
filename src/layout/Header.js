@@ -17,14 +17,14 @@ const Header = ({ walletToggle, navigationToggle }) => {
             <div className="trigger" onClick={() => navigationToggle(true)}>
               <span />
             </div>
-            <div className="logo">
+            {/* <div className="logo"> */}
               {/* <Link href="/"> */}
                 <a>
                   <span style={{color:'white'}}>CAT</span>
                   {/* <img src="/img/logo.png" alt="" /> */}
                 </a>
               {/* </Link> */}
-            </div>
+            {/* </div> */}
           </div>
           <div className="nav" style={{ opacity: 1 }}>
             <ul>
