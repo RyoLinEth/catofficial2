@@ -6,19 +6,19 @@ const About = () => {
       <div className="fn_cs_about">
         <div className="left_part">
           <div className="img">
-            <div className="img_in" data-bg-img="/img/about/1.jpg">
+            <div className="img_in" data-bg-img="/img/about/3.jpg">
               <img src="/img/1x1.jpg" alt="" />
             </div>
           </div>
           <div className="bg_overlay">
             <div className="bg_color" />
-            <div className="bg_image" data-bg-img="/img/about/bg.jpg" />
+            <div className="bg_image" data-bg-img="/img/about/4.jpg" />
           </div>
         </div>
         <div className="right_part">
           <div className="right_in">
-            <h3 className="fn__maintitle" data-text="The Rise of Legends">
-              The Rise of Legends
+            <h3 className="fn__maintitle" data-text="The Rise of Cats">
+              The Rise of Cats
             </h3>
             <div className="fn_cs_divider">
               <div className="divider">
@@ -28,41 +28,55 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                As the first hero of the Meta Legends, collection has over 9,999
-                unique skins drawn from the different missions and challenges he
-                faced throughout his life.
+                CAT is decentralized and
+                supported by its community of
+                enthusiasts. We encourage open
+                communication and believe
+                trust, transparency, and
+                community are the 3 pillars to
+                building longevity.
               </p>
               <p>
-                The artwork has been hand-drawned by Robert Green in the
-                traditional anime style and composited by Layla Efiyo.
+                In cryptocurrency market trust is
+                paramount. That means full
+                transparency not only in the
+                community and development but
+                also in security. CAT has
+                been audited by a third party
+                dessert finance and has burned
+                and locked majority of the LP
+                tokens. No rug pulls here only cute doges
               </p>
               <p>
-                Curabitur pharetra velit eget dignissim varius. In vulputate
-                elit at tortor pellentesque, non pulvinar neque consequat.
-                Aenean tristique odio in libero tincidunt maximus. Nulla
-                pharetra viverra dolor ut blandit. Cras finibus vel tortor eget
-                lacinia. Pellentesque interdum elit non lacinia faucibus. Morbi
-                nec felis auctor, tincidunt lacus sit amet, iaculis ipsum.
-                Phasellus tempus sit amet justo et feugiat. Duis blandit semper
-                lorem, egestas euismod ligula pharetra ac. Sed porta lorem eget
-                neque bibendum, eget euismod justo mollis.
+                CAT is one of the fastest
+                growing and most loved
+                communities in crypto we believe
+                that only together we are strong.
+                Community is everything and
+                CATstrives to include
+                everyone from around the globe.
+                We have multiple telegram
+                channels dedicated to our
+                international communities.
               </p>
               <p>
-                Donec tristique porttitor sem, eget fermentum elit varius nec.
-                Donec ut orci ipsum. Morbi efficitur felis eget dapibus
-                fermentum. Phasellus sed tellus volutpat, hendrerit leo non,
-                sollicitudin neque. Etiam ac lacus quam. Vivamus suscipit nisl
-                tellus, at congue odio commodo at. Cras ante enim, sodales at
-                pretium et, tempus at libero.
+                CAT is in for the long haul.
+                The decentralized community is
+                fostering and adopting long
+                term development of the
+                ecosystem and foundation in
+                cutedoges. e orts to drive real use cases,
+                and greater rewards beyond any
+                temporary trends.
               </p>
             </div>
             <a
-              href="https://discord.com/"
+              href="https://t.me/CatEnGroup"
               className="metaportal_fn_button"
               target="_blank"
               rel="noreferrer"
             >
-              <span>Find us On Discord</span>
+              <span>Find us On Telegram</span>
             </a>
           </div>
         </div>
@@ -230,7 +244,7 @@ export const About2 = () => (
         </p>
       </div>
     </div>
-    <div className="fn_cs_video bg">
+    {/* <div className="fn_cs_video bg">
       <div className="abs_img" data-bg-img="/img/video/1.jpg" />
       <a
         className="popup-youtube"
@@ -238,7 +252,7 @@ export const About2 = () => (
       >
         <img src="/svg/play.svg" alt="" className="fn__svg" />
       </a>
-    </div>
+    </div> */}
     <div className="container">
       {/* Steps Shortcode */}
       <div className="fn_cs_steps gap" data-cols={4} data-gap={60}>

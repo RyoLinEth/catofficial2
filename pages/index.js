@@ -41,7 +41,7 @@ const Index = () => {
       <SectionDivider />
       {/* !Section Divider */}
       {/* Section */}
-      <Contact />
+      {/* <Contact /> */}
     </Layout>
   );
 };

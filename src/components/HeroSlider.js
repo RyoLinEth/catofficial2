@@ -139,7 +139,7 @@ const HeroSlider = () => {
                 <div className="item">
                   <img src="/img/1x1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/1.jpg" />
+                    <div className="img" data-bg-img="/img/slider/8.jpg" />
                   </div>
                 </div>
               </li>
@@ -147,11 +147,11 @@ const HeroSlider = () => {
                 <div className="item">
                   <img src="/img/1x1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/2.jpg" />
+                    <div className="img" data-bg-img="/img/slider/9.jpg" />
                   </div>
                 </div>
               </li>
-              <li className="next" data-index={3}>
+              {/* <li className="next" data-index={3}>
                 <div className="item has_video">
                   <img src="/img/1x1.jpg" alt="" />
                   <a
@@ -164,16 +164,16 @@ const HeroSlider = () => {
                     <div className="img" data-bg-img="/img/slider/3.jpg" />
                   </div>
                 </div>
-              </li>
-              <li className="next2" data-index={4}>
+              </li> */}
+              <li className="next2" data-index={3}>
                 <div className="item">
                   <img src="/img/1x1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/4.jpg" />
+                    <div className="img" data-bg-img="/img/slider/10.jpg" />
                   </div>
                 </div>
               </li>
-              <li data-index={5}>
+              {/* <li data-index={5}>
                 <div className="item">
                   <img src="/img/1x1.jpg" alt="" />
                   <div className="item_in">
@@ -196,7 +196,7 @@ const HeroSlider = () => {
                     <div className="img" data-bg-img="/img/slider/7.jpg" />
                   </div>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="slider_nav">
@@ -220,18 +220,19 @@ const HeroSlider = () => {
         {/* Description */}
         <div className="fn_cs_desc">
           <p>
-            Meta Legends represent a collection of 17,000 legends categorized by
-            level of rarity and generated with hundreds of elements. The Legends
-            are stored as ERC-721 tokens on the Ethereum blockchain and hosted
-            on IPFS.
+            CAT Coin was born Dec 1st 2022 with the goal of being a
+            decentralized meme project with a purpose. CAT is a fun meme with a
+            serious mission to rescue dogs in need, bring crypto adoption to the
+            main streamwith new concepts such as rewards, NFTS, decentralized
+            exchanges, and credit card for crypto payment on our website.
           </p>
           <a
-            href="https://opensea.io/"
+            // href="https://opensea.io/"
             className="metaportal_fn_button"
-            target="_blank"
-            rel="noreferrer"
+            // target="_blank"
+            // rel="noreferrer"
           >
-            <span>Buy On Opensea</span>
+            <span>Mint</span>
           </a>
         </div>
         {/* !Description */}
