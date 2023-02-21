@@ -1,21 +1,21 @@
-import SwiperCore, {
-  Autoplay,
-  EffectCreative,
-  EffectFade,
-  Grid,
-  Navigation,
-  Pagination,
-} from "swiper";
+// import SwiperCore, {
+//   Autoplay,
+//   EffectCreative,
+//   EffectFade,
+//   Grid,
+//   Navigation,
+//   Pagination,
+// } from "swiper";
 // import "swiper/css/effect-creative";
 
-SwiperCore.use([
-  Pagination,
-  Navigation,
-  EffectFade,
-  Autoplay,
-  Grid,
-  EffectCreative,
-]);
+// SwiperCore.use([
+//   Pagination,
+//   Navigation,
+//   EffectFade,
+//   Autoplay,
+//   Grid,
+//   EffectCreative,
+// ]);
 
 const roadmapStep = (mySwiper, step, widthParts) => {
   var breakpoint = parseInt(mySwiper.width);
