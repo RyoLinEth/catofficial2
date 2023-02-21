@@ -60,7 +60,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
               href="#"
               onClick={
 
-                () => alert("It's not the time")
+                () => alert("Unable to connect now")
                 //   (e) => {
                 //   e.preventDefault();
                 //   walletToggle(true);

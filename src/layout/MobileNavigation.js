@@ -58,7 +58,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
               href="#"
               className="metaportal_fn_button wallet_opener"
               onClick={
-                () => alert("It's not the time")
+                () => alert("Unable to connect now")
                 // () => walletToggle(true)
               }
             >
