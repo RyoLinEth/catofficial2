@@ -169,10 +169,18 @@ const HeroSlider = () => {
                 <div className="item">
                   <img src="/img/1x1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/10.jpg" />
+                    <div className="img" data-bg-img="/img/slider/11.jpg" />
                   </div>
                 </div>
               </li>
+              {/* <li className="next2" data-index={4}>
+                <div className="item">
+                  <img src="/img/1x1.jpg" alt="" />
+                  <div className="item_in">
+                    <div className="img" data-bg-img="/img/slider/11.jpg" />
+                  </div>
+                </div>
+              </li> */}
               {/* <li data-index={5}>
                 <div className="item">
                   <img src="/img/1x1.jpg" alt="" />
@@ -222,17 +230,17 @@ const HeroSlider = () => {
           <p>
             CAT Coin was born Dec 1st 2022 with the goal of being a
             decentralized meme project with a purpose. CAT is a fun meme with a
-            serious mission to rescue dogs in need, bring crypto adoption to the
+            serious mission to rescue cats in need, bring crypto adoption to the
             main streamwith new concepts such as rewards, NFTS, decentralized
             exchanges, and credit card for crypto payment on our website.
           </p>
           <a
-            // href="https://opensea.io/"
+            href="https://pancakeswap.finance/swap"
             className="metaportal_fn_button"
             // target="_blank"
             // rel="noreferrer"
           >
-            <span>Mint</span>
+            <span>Buy on PancakeSwap</span>
           </a>
         </div>
         {/* !Description */}

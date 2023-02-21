@@ -37,6 +37,10 @@ const Collection = () => {
     }, 2000);
   }, []);
 
+  const collectionAlert = () => {
+    alert("Unable to see now");
+  }
+
   return (
     <section id="collection">
       <div className="container">
@@ -151,16 +155,16 @@ const Collection = () => {
         </div>
         <div className="fn_cs_desc">
           <p>
-            Meta Legends represent a collection of 17,000 legends categorized by
+            {/* Meta Legends represent a collection of 17,000 legends categorized by
             level of rarity and generated with hundreds of elements. The Legends
             are stored as ERC-721 tokens on the Ethereum blockchain and hosted
-            on IPFS.
+            on IPFS. */}
           </p>
-          <Link href="/collection">
-            <a className="metaportal_fn_button">
-              <span>See All Collection</span>
-            </a>
-          </Link>
+          {/* <Link href="/collection"> */}
+          <a className="metaportal_fn_button" onClick={collectionAlert} style={{ cursor: 'pointer' }}>
+            <span>See All Collection</span>
+          </a>
+          {/* </Link> */}
         </div>
       </div>
     </section>

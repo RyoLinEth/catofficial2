@@ -1,5 +1,8 @@
 import Link from "next/link";
 const About = () => {
+  const mintResponse = () => {
+    alert("unable to mint now");
+  }
   return (
     <section id="about">
       {/* About Shortcode */}
@@ -45,7 +48,7 @@ const About = () => {
                 been audited by a third party
                 dessert finance and has burned
                 and locked majority of the LP
-                tokens. No rug pulls here only cute doges
+                tokens. No rug pulls here only cute cats
               </p>
               <p>
                 CAT is one of the fastest
@@ -65,7 +68,7 @@ const About = () => {
                 fostering and adopting long
                 term development of the
                 ecosystem and foundation in
-                cutedoges. e orts to drive real use cases,
+                efforts to drive real use cases,
                 and greater rewards beyond any
                 temporary trends.
               </p>
@@ -86,50 +89,34 @@ const About = () => {
         {/* Mint Shortcode */}
         <div className="fn_cs_mint">
           <div className="left_part">
-            <h3 className="fn__maintitle" data-text="How to Mint">
-              How to Mint
-            </h3>
-            <div className="fn_cs_divider">
+            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+              <h3 className="fn__maintitle" data-text="How to Mint">
+                How to Mint
+              </h3>
+              <a className="metaportal_fn_button" onClick={mintResponse} style={{ cursor: 'pointer' }}>
+                <span>Mint</span>
+              </a>
+            </div>
+            {/* <div className="fn_cs_divider">
               <div className="divider">
                 <span />
                 <span />
               </div>
-            </div>
-            <div className="desc">
+            </div> */}
+            {/* <div className="desc">
               <p>
-                As the first hero of the Meta Legends, collection has over 9,999
-                unique skins drawn from the different missions and challenges he
-                faced throughout his life.
+                CONNECT YOUR WALLET
               </p>
               <p>
-                The artwork has been hand-drawned by Robert Green in the
-                traditional anime style and composited by Layla Efiyo.
+                SELECT YOUR QUANTITY
               </p>
               <p>
-                Curabitur pharetra velit eget dignissim varius. In vulputate
-                elit at tortor pellentesque, non pulvinar neque consequat.
-                Aenean tristique odio in libero tincidunt maximus. Nulla
-                pharetra viverra dolor ut blandit. Cras finibus vel tortor eget
-                lacinia. Pellentesque interdum elit non lacinia faucibus. Morbi
-                nec felis auctor, tincidunt lacus sit amet, iaculis ipsum.
-                Phasellus tempus sit amet justo et feugiat. Duis blandit semper
-                lorem, egestas euismod ligula pharetra ac. Sed porta lorem eget
-                neque bibendum, eget euismod justo mollis.
+                CONFIRM THE TRANSACTION
               </p>
               <p>
-                Donec tristique porttitor sem, eget fermentum elit varius nec.
-                Donec ut orci ipsum. Morbi efficitur felis eget dapibus
-                fermentum. Phasellus sed tellus volutpat, hendrerit leo non,
-                sollicitudin neque. Etiam ac lacus quam. Vivamus suscipit nisl
-                tellus, at congue odio commodo at. Cras ante enim, sodales at
-                pretium et, tempus at libero.
+                RECEIVE YOUR NFT’S
               </p>
-            </div>
-            <Link href="/nft-single">
-              <a className="metaportal_fn_button">
-                <span>How to Mint</span>
-              </a>
-            </Link>
+            </div> */}
           </div>
           <div className="right_part">
             {/* Steps Shortcode */}
@@ -171,7 +158,7 @@ const About = () => {
             </div>
             {/* !Steps Shortcode */}
             {/* Video Shortcode */}
-            <div className="fn_cs_video">
+            {/* <div className="fn_cs_video">
               <img src="/img/video/1.jpg" alt="" />
               <a
                 className="popup-youtube"
@@ -179,7 +166,7 @@ const About = () => {
               >
                 <img src="/svg/play.svg" alt="" className="fn__svg" />
               </a>
-            </div>
+            </div> */}
             {/* /Video Shortcode */}
           </div>
         </div>

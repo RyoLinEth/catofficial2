@@ -174,7 +174,7 @@ const RoadMapSlider = () => {
                           <li>
                             Give away Tesla to promote
                             eco-friendliness campaign of
-                            CAT vs doge at $250m
+                            CAT at $250m
                             market cap.
                           </li>
                           <li>
@@ -192,7 +192,7 @@ const RoadMapSlider = () => {
                           </li>
                           <li>
                             Donate to Help Build
-                            Homeless dog shelter at $25b
+                            Homeless cat shelter at $25b
                             market cap
                           </li>
                         </ul>
