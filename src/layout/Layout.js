@@ -23,7 +23,7 @@ const Layout = ({ children, pageTitle }) => {
   return (
     <Fragment>
       <Head>
-        <title>MetaPortal | {pageTitle}</title>
+        <title>CAT | {pageTitle}</title>
       </Head>
       <ImageView />
       <VideoPopup />
