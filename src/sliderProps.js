@@ -46,7 +46,7 @@ export const roadMapProps = {
     delay: 5000,
     disableOnInteraction: false,
   },
-  slidesPerView: 4,
+  slidesPerView: 2,
   spaceBetween: 40,
   direction: "horizontal",
   loopAdditionalSlides: 10,
