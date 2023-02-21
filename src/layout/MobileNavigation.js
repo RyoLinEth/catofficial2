@@ -68,11 +68,12 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
         </div>
         <div className="mob_mid">
           <div className="logo">
-            <Link href="/">
-              <a>
-                <img src="/img/logo.png" alt="" />
-              </a>
-            </Link>
+            {/* <Link href="/"> */}
+            <a>
+              <span style={{ color: 'white' }}>CAT</span>
+              {/* <img src="/img/logo.png" alt="" /> */}
+            </a>
+            {/* </Link> */}
           </div>
           <div
             className={`trigger ${toggle ? "active" : ""}`}
