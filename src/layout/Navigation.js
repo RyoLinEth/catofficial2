@@ -24,49 +24,64 @@ const Navigation = ({ navigation, navigationToggle }) => {
               <li>
                 <div className="item">
                   <a
-                    href="https://opensea.io/"
+                    href="https://pancakeswap.finance/swap"
                     target="_blank"
                     rel="noreferrer"
                   />
                   <span className="icon">
-                    <img src="/img/market/opensea.png" alt="" />
+                    <img src="/img/market/pancakeLOGO.png" alt="" style={{
+                      width: '20px'
+                    }} />
                   </span>
-                  <span className="text">Opensea</span>
+                  <span className="text">PancakeSwap</span>
                 </div>
               </li>
               <li>
                 <div className="item">
                   <a
-                    href="https://discord.com/"
+                    href="https://t.me/CatEnGroup"
                     target="_blank"
                     rel="noreferrer"
                   />
                   <span className="icon">
-                    <img src="/img/market/discord.png" alt="" />
+                    <img src="/img/market/TGLOGO.png" alt="" />
                   </span>
-                  <span className="text">Discord</span>
+                  <span className="text">Telegram</span>
+                </div>
+              </li>
+              <li>
+                <div className="item">
+                  <a
+                    href="https://catmeme.space"
+                    target="_blank"
+                    rel="noreferrer"
+                  />
+                  <span className="icon">
+                    <img src="/img/market/idoLogo.png" alt="" />
+                  </span>
+                  <span className="text">IDO Page</span>
                 </div>
               </li>
             </ul>
           </div>
           <div className="nav_holder">
             {/* For JS */}
-            <span className="icon">
+            {/* <span className="icon">
               <img src="/svg/down.svg" alt="" className="fn__svg" />
-            </span>
+            </span> */}
             {/* For JS */}
             <ul
               style={{
                 transform: `translateX(${subMenu !== null ? "-100" : "0"}%)`,
               }}
             >
-              <li>
+              {/* <li>
                 <a
                   href="#"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSubMenu("home");
-                  }}
+                  // onClick={(e) => {
+                  //   e.preventDefault();
+                  //   setSubMenu("home");
+                  // }}
                   className={`${subMenu == "home" ? "active" : ""}`}
                 >
                   <span className="creative_link">
@@ -74,7 +89,7 @@ const Navigation = ({ navigation, navigationToggle }) => {
                     <img src="/svg/down.svg" alt="" className="fn__svg" />
                   </span>
                 </a>
-                <ul className="sub-menu">
+                {/* <ul className="sub-menu">
                   <li>
                     <a
                       href="#"
@@ -139,8 +154,8 @@ const Navigation = ({ navigation, navigationToggle }) => {
                     </Link>
                   </li>
                 </ul>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="/nft/1">
                   <a onClick={() => navigationToggle(false)}>
                     <span className="creative_link">Mint Page</span>
@@ -234,8 +249,8 @@ const Navigation = ({ navigation, navigationToggle }) => {
                     </Link>
                   </li>
                 </ul>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="/blog">
                   <a onClick={() => navigationToggle(false)}>
                     <span className="creative_link">Blog</span>
@@ -248,23 +263,23 @@ const Navigation = ({ navigation, navigationToggle }) => {
                     <span className="creative_link">Blog Single</span>
                   </a>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="info_holder">
             <div className="copyright">
               <p>
-                Copyright 2022 - Designed &amp; Developed by{" "}
+                Copyright 2023 - Designed &amp; Developed by{" "}
                 <a
-                  href="https://themeforest.net/user/codeefly/portfolio"
+                  href="https://t.me/CatEnGroup"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  CodeeFly
+                  CAT
                 </a>
               </p>
             </div>
-            <div className="social_icons">
+            {/* <div className="social_icons">
               <ul>
                 <li>
                   <a href="#">
@@ -312,7 +327,7 @@ const Navigation = ({ navigation, navigationToggle }) => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

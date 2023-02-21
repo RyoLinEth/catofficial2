@@ -12,7 +12,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
             <div className="trigger" onClick={() => navigationToggle(true)}>
               <span />
             </div>
-            <div className="social">
+            {/* <div className="social">
               <ul>
                 <li>
                   <a
@@ -51,13 +51,16 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           <div className="wallet">
             <a
               href="#"
               className="metaportal_fn_button wallet_opener"
-              onClick={() => walletToggle(true)}
+              onClick={
+                () => alert("It's not the time")
+                // () => walletToggle(true)
+              }
             >
               <span>Wallet</span>
             </a>
@@ -96,15 +99,15 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
               </a>
             </li>
             <li>
-              <a className="creative_link" href="#news">
+              <a className="creative_link" href="#roadmap">
                 Blog
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="creative_link" href="#contact">
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

@@ -35,10 +35,10 @@ const Index = () => {
       <SectionDivider />
       {/* !Section Divider */}
       {/* Section News */}
-      <News />
+      {/* <News /> */}
       {/* !Section News */}
       {/* Section Divider */}
-      <SectionDivider />
+      {/* <SectionDivider /> */}
       {/* !Section Divider */}
       {/* Section */}
       {/* <Contact /> */}

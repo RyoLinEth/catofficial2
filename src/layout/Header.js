@@ -18,11 +18,12 @@ const Header = ({ walletToggle, navigationToggle }) => {
               <span />
             </div>
             <div className="logo">
-              <Link href="/">
+              {/* <Link href="/"> */}
                 <a>
-                  <img src="/img/logo.png" alt="" />
+                  <span style={{color:'white'}}>CAT</span>
+                  {/* <img src="/img/logo.png" alt="" /> */}
                 </a>
-              </Link>
+              {/* </Link> */}
             </div>
           </div>
           <div className="nav" style={{ opacity: 1 }}>
@@ -43,24 +44,28 @@ const Header = ({ walletToggle, navigationToggle }) => {
                 </Link>
               </li>
               <li>
-                <Link href="/#news">
-                  <a className="creative_link">Blog</a>
+                <Link href="/#roadmap">
+                  <a className="creative_link">RoadMap</a>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/#contact">
                   <a className="creative_link">Contact</a>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="wallet">
             <a
               href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                walletToggle(true);
-              }}
+              onClick={
+
+                () => alert("It's not the time")
+                //   (e) => {
+                //   e.preventDefault();
+                //   walletToggle(true);
+                // }
+              }
               className="metaportal_fn_button wallet_opener"
             >
               <span>Connect To Wallet</span>
