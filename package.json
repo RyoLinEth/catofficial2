@@ -21,7 +21,7 @@
     "redux": "^4.2.1",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.1",
-    "swiper": "^9.0.5",
+    "swiper": "^6.4.15",
     "tsparticles": "^2.3.4"
   },
   "devDependencies": {
