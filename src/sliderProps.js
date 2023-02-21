@@ -6,7 +6,8 @@ import SwiperCore, {
   Navigation,
   Pagination,
 } from "swiper";
-import "swiper/css/effect-creative";
+// import "swiper/css/effect-creative";
+
 SwiperCore.use([
   Pagination,
   Navigation,
