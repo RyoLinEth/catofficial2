@@ -63,7 +63,7 @@ const Collection = () => {
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/1.jpg" />
+              <input type="hidden" defaultValue="img/collection/9.jpg" />
             </div>
             <div className="item">
               <div className="item_in">
